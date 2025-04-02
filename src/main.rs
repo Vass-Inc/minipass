@@ -6,11 +6,11 @@ use std::io::{self, Write};
 fn generate_password(size: u32) -> String {
 
     // TODO: 
-    // - mudar a str de chars para uma autogerada 
+    // - mudar a str de chars para uma autogerada
     // - size minimo aceite tem de ser 12
     // - ... 
 
-
+    let charkey = "";
     let todas = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_=!#$%&()*+,-.:'/?@";
 
     let mut rng = rand::rng();

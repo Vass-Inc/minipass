@@ -1,1 +1,3 @@
-# sample-code
+# Minipass
+
+Your cli pass saver!
